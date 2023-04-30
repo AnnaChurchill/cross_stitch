@@ -10,14 +10,14 @@ I will be considering the each cross having the first stitch (the under stitch) 
 
 At this point the program will accept text files representing the cross stitch pattern with the rows represented on separate lines, the columns represented by commas, and the colours represented by numbers. 
 Each input file will have the number of rows, newline, the number of columns, newline, the number of colours, newline and then the pattern as described above. Here is an example:
-
+```
 3
 3
 4
 1,1,3
 1,2,2
 2,2,4
-
+```
 The numbers do not have to be 1-n as in the example, they can be any integers.
 
 In future it would be great to be able to interpret actual cross stutch patterns (usually in pdf form and displayed in a grid) without having to manually put them in this csv form.
